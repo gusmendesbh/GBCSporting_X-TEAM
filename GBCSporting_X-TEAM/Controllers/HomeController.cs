@@ -43,6 +43,11 @@ namespace GBCSporting_X_TEAM.Controllers
             return View();
         }
 
+        public IActionResult UpdateIncident()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
