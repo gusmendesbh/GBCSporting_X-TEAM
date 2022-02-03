@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GBCSporting_X-TEAM",
+    "\\GBCSporting_X-TEAM\\Views",
+    "\\GBCSporting_X-TEAM\\Views\\Home"
   ],
+  "SelectedNode": "\\GBCSporting_X-TEAM\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

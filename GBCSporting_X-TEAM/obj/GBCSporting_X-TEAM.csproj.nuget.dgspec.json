@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusme\\Source\\Repos\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj": {}
+    "C:\\Users\\gusme\\source\\repos\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusme\\Source\\Repos\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj": {
+    "C:\\Users\\gusme\\source\\repos\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusme\\Source\\Repos\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj",
+        "projectUniqueName": "C:\\Users\\gusme\\source\\repos\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj",
         "projectName": "GBCSporting_X-TEAM",
-        "projectPath": "C:\\Users\\gusme\\Source\\Repos\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj",
+        "projectPath": "C:\\Users\\gusme\\source\\repos\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj",
         "packagesPath": "C:\\Users\\gusme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusme\\Source\\Repos\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM\\obj\\",
+        "outputPath": "C:\\Users\\gusme\\source\\repos\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
