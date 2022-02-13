@@ -21,40 +21,35 @@ namespace GBCSporting_X_TEAM.Models
                 new Technician
                 {
                     TechnicianId = 1,
-                    FirstName = "George",
-                    LastName = "Akron",
+                    Name = "George Akron",
                     Email = "g.akron@gbcsport.com",
                     Phone = "332-974-2398"
                 },
                  new Technician
                  {
                      TechnicianId = 2,
-                     FirstName = "Kevin",
-                     LastName = "Pickrell",
+                     Name = "Kevin Pickrell",
                      Email = "k.pickrell@gbcsport.com",
                      Phone = "510-367-5104"
                  },
                  new Technician
                  {
                      TechnicianId = 3,
-                     FirstName = "Elizabeth",
-                     LastName = "Bishop",
+                     Name = "Elizabeth Bishop",
                      Email = "e.bishop@gbcsport.com",
                      Phone = "718-340-3265"
                  },
                  new Technician
                  {
                      TechnicianId = 4,
-                     FirstName = "Jeanne",
-                     LastName = "Stephens",
+                     Name = "Jeanne Stephens",
                      Email = "j.stephens@gbcsport.com",
                      Phone = "732-519-3152"
                  },
                  new Technician
                  {
                      TechnicianId = 5,
-                     FirstName = "Michael",
-                     LastName = "Day",
+                     Name = "Michael Day",
                      Email = "d.Michael@gbcsport.com",
                      Phone = "518-200-4074"
                  }

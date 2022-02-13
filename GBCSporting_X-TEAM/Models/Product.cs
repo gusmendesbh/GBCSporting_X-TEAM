@@ -13,7 +13,7 @@ namespace GBCSporting_X_TEAM.Models
         [Required]
         public double Price { get; set; }
         [Required]
-        public DateTime ReleaseDate { get; set; }
+        public DateTime ReleaseDate { get; set; } = DateTime.Now;
         public string Slug => Name?.Replace(' ', '-').ToLower() + '-' + Code?.Replace(' ', '-').ToLower();
     }
 }

@@ -17,9 +17,10 @@ namespace GBCSporting_X_TEAM.Models
         [Required]
         public string Description { get; set; }
         [Required]
-        public DateTime DateOpened { get; set; }
+        public DateTime DateOpened { get; set; } = DateTime.Now;
         public DateTime DateClosed { get; set; }
         public int? TechnicianId { get; set; }
         public Technician Technician { get; set; }
     }
+
 }

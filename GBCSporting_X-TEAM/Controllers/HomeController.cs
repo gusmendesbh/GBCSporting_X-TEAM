@@ -6,11 +6,11 @@ namespace GBCSporting_X_TEAM.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private GbcSportingContext context { get; set; }
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(GbcSportingContext ctx)
         {
-            _logger = logger;
+            context = ctx;
         }
 
         public IActionResult Index()
@@ -20,22 +20,31 @@ namespace GBCSporting_X_TEAM.Controllers
 
         public IActionResult Products()
         {
-            return View();
+            var products= context.Products.OrderBy(x => x.ReleaseDate.Year).ToList();
+            return View(products);
         }
 
         public IActionResult Technicians()
         {
-            return View();
+            var technician = context.Technicians.OrderBy(x => x.Name).ToList();
+            return View(technician);
         }
 
         public IActionResult Customers()
         {
-            return View();
+            var customer = context.Customers.OrderBy(x => x.FirstName).ToList();
+            return View(customer);
         }
 
         public IActionResult Incidents()
         {
-            return View();
+            /*var Lists = from inc in context.Incidents
+                        join cus in context.Customers on inc.CustomerId equals cus.CustomerId
+                        select new { Title = inc.Title, Customer = cus.FirstName };*/
+
+
+            var incident = context.Incidents.OrderBy(x => x.Title).ToList();
+            return View(incident);
         }
 
         public IActionResult Registrations()

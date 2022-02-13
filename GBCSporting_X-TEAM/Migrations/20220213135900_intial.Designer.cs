@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GBCSporting_X_TEAM.Migrations
 {
     [DbContext(typeof(GbcSportingContext))]
-    [Migration("20220208200736_Inital")]
-    partial class Inital
+    [Migration("20220213135900_intial")]
+    partial class intial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -227,7 +227,7 @@ namespace GBCSporting_X_TEAM.Migrations
                             IncidentId = 1,
                             CustomerId = 1,
                             DateClosed = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2022, 2, 8, 15, 7, 36, 97, DateTimeKind.Local).AddTicks(7481),
+                            DateOpened = new DateTime(2022, 2, 13, 8, 58, 59, 477, DateTimeKind.Local).AddTicks(3676),
                             Description = "The camera works with other software, only the simulator doesnt seem to recogize it.",
                             ProductId = 2,
                             Title = "Simulator can not find installed camera."
@@ -237,7 +237,7 @@ namespace GBCSporting_X_TEAM.Migrations
                             IncidentId = 2,
                             CustomerId = 2,
                             DateClosed = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2022, 2, 8, 15, 7, 36, 97, DateTimeKind.Local).AddTicks(7530),
+                            DateOpened = new DateTime(2022, 2, 13, 8, 58, 59, 477, DateTimeKind.Local).AddTicks(3683),
                             Description = "Freeze occurs when a customer tries to check out with an empty cart.",
                             ProductId = 4,
                             Title = "Software causes Point of Sale hardware to freeze"
@@ -247,7 +247,7 @@ namespace GBCSporting_X_TEAM.Migrations
                             IncidentId = 3,
                             CustomerId = 2,
                             DateClosed = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2022, 2, 8, 15, 7, 36, 97, DateTimeKind.Local).AddTicks(7534),
+                            DateOpened = new DateTime(2022, 2, 13, 8, 58, 59, 477, DateTimeKind.Local).AddTicks(3690),
                             Description = "Software gui glitches for a moment after tickets are purchased.",
                             ProductId = 4,
                             Title = "Software gui glitches."
@@ -257,7 +257,7 @@ namespace GBCSporting_X_TEAM.Migrations
                             IncidentId = 4,
                             CustomerId = 4,
                             DateClosed = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2022, 2, 8, 15, 7, 36, 97, DateTimeKind.Local).AddTicks(7536),
+                            DateOpened = new DateTime(2022, 2, 13, 8, 58, 59, 477, DateTimeKind.Local).AddTicks(3696),
                             Description = "Seems to only occur if the return date is a tuesday.",
                             ProductId = 5,
                             Title = "Software does not always send out rental return reminders"
@@ -267,7 +267,7 @@ namespace GBCSporting_X_TEAM.Migrations
                             IncidentId = 5,
                             CustomerId = 4,
                             DateClosed = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2022, 2, 8, 15, 7, 36, 97, DateTimeKind.Local).AddTicks(7539),
+                            DateOpened = new DateTime(2022, 2, 13, 8, 58, 59, 477, DateTimeKind.Local).AddTicks(3703),
                             Description = "If an item is scanned as returned some times it does appear in the pool and has to be re-added manually.",
                             ProductId = 5,
                             Title = "Software sometimes does not add returned item to available item pool automatically"
@@ -355,11 +355,7 @@ namespace GBCSporting_X_TEAM.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LastName")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -376,40 +372,35 @@ namespace GBCSporting_X_TEAM.Migrations
                         {
                             TechnicianId = 1,
                             Email = "g.akron@gbcsport.com",
-                            FirstName = "George",
-                            LastName = "Akron",
+                            Name = "George Akron",
                             Phone = "332-974-2398"
                         },
                         new
                         {
                             TechnicianId = 2,
                             Email = "k.pickrell@gbcsport.com",
-                            FirstName = "Kevin",
-                            LastName = "Pickrell",
+                            Name = "Kevin Pickrell",
                             Phone = "510-367-5104"
                         },
                         new
                         {
                             TechnicianId = 3,
                             Email = "e.bishop@gbcsport.com",
-                            FirstName = "Elizabeth",
-                            LastName = "Bishop",
+                            Name = "Elizabeth Bishop",
                             Phone = "718-340-3265"
                         },
                         new
                         {
                             TechnicianId = 4,
                             Email = "j.stephens@gbcsport.com",
-                            FirstName = "Jeanne",
-                            LastName = "Stephens",
+                            Name = "Jeanne Stephens",
                             Phone = "732-519-3152"
                         },
                         new
                         {
                             TechnicianId = 5,
                             Email = "d.Michael@gbcsport.com",
-                            FirstName = "Michael",
-                            LastName = "Day",
+                            Name = "Michael Day",
                             Phone = "518-200-4074"
                         });
                 });
