@@ -1,5 +1,6 @@
 ﻿using GBCSporting_X_TEAM.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace GBCSporting_X_TEAM.Controllers
@@ -43,7 +44,7 @@ namespace GBCSporting_X_TEAM.Controllers
                         select new { Title = inc.Title, Customer = cus.FirstName };*/
 
 
-            var incident = context.Incidents.OrderBy(x => x.Title).ToList();
+            var incident = context.Incidents.Include(c => c.Customer).Include(p => p.Product).OrderBy(x => x.Title).ToList();
             return View(incident);
         }
 
