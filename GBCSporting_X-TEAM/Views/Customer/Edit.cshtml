@@ -41,8 +41,9 @@
     </div>
 
     <div class="form-group">
-        <label asp-for="Country">Country</label>
-        <select asp-for="Country">
+        <label asp-for="CountryId">Country</label>
+        <select asp-for="CountryId" class="form-control">
+            <option value="">Select a country</option>
             @foreach (Country c in ViewBag.Countries)
             {
                 <option value="@c.CountryId">@c.CountryName</option>

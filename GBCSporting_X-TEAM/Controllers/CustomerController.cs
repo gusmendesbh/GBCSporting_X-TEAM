@@ -66,7 +66,7 @@ namespace GBCSporting_X_TEAM.Controllers
         {
             context.Customers.Remove(customer);
             context.SaveChanges();
-            return RedirectToAction("Customer", "Home");
+            return RedirectToAction("Customers", "Home");
         }
     }
 }

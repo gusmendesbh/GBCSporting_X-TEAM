@@ -18,10 +18,10 @@ namespace GBCSporting_X_TEAM.Models
         public string State { get; set; }
         [Required]
         public string PostalCode { get; set; }
+
         [Required]
         public int CountryId { get; set; }
-        
-        public Country Country { get; set; }
+        public Country? Country { get; set; }
 
         public string Phone { get; set; }
         public string Email{ get; set; }
