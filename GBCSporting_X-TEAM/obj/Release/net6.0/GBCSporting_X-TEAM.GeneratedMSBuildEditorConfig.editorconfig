@@ -8,89 +8,89 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GBCSporting_X_TEAM
 build_property.RootNamespace = GBCSporting_X_TEAM
-build_property.ProjectDir = C:\Users\Fpanda\Desktop\GBC Program\Winter2022\Comp2139 - .net\Labs\HomeWork\Assignment\GBCSporting_X-TEAM\
+build_property.ProjectDir = C:\Users\mfles\OneDrive\Documents\webAPPLICATIONS\my projects\GBC\GBCSporting_X-TEAM\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Fpanda\Desktop\GBC Program\Winter2022\Comp2139 - .net\Labs\HomeWork\Assignment\GBCSporting_X-TEAM
+build_property.MSBuildProjectDirectory = C:\Users\mfles\OneDrive\Documents\webAPPLICATIONS\my projects\GBC\GBCSporting_X-TEAM
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Customer/Delete.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Customer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Customer/Edit.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Customer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Home/Customers.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Home/Customers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdXN0b21lcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Home/Incidents.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Home/Incidents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmNpZGVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Home/Index.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Home/Products.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Home/Products.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Home/Registrations.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Home/Registrations.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Home/Technicians.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Home/Technicians.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZWNobmljaWFucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Home/UpdateIncident.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Home/UpdateIncident.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGRhdGVJbmNpZGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Incident/Delete.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Incident/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Incident/Edit.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Incident/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Product/Delete.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Product/Edit.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Shared/Error.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Technician/Delete.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Technician/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaG5pY2lhblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Technician/Edit.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Technician/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaG5pY2lhblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/_ViewImports.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/_ViewStart.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Fpanda/Desktop/GBC Program/Winter2022/Comp2139 - .net/Labs/HomeWork/Assignment/GBCSporting_X-TEAM/Views/Shared/_Layout.cshtml]
+[C:/Users/mfles/OneDrive/Documents/webAPPLICATIONS/my projects/GBC/GBCSporting_X-TEAM/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4ljxxhbqkj

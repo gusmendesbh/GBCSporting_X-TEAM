@@ -16,7 +16,7 @@ namespace GBCSporting_X_TEAM.Controllers
         public IActionResult Add()
         {
             ViewBag.Action = "Add";
-            return View("Edit", new Technician());
+            return View("Edit", new Product());
         }
 
         [HttpGet]

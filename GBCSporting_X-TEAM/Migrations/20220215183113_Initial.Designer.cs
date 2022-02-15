@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GBCSporting_X_TEAM.Migrations
 {
     [DbContext(typeof(GbcSportingContext))]
-    [Migration("20220213135900_intial")]
-    partial class intial
+    [Migration("20220215183113_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -227,7 +227,7 @@ namespace GBCSporting_X_TEAM.Migrations
                             IncidentId = 1,
                             CustomerId = 1,
                             DateClosed = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2022, 2, 13, 8, 58, 59, 477, DateTimeKind.Local).AddTicks(3676),
+                            DateOpened = new DateTime(2022, 2, 15, 13, 31, 13, 315, DateTimeKind.Local).AddTicks(9759),
                             Description = "The camera works with other software, only the simulator doesnt seem to recogize it.",
                             ProductId = 2,
                             Title = "Simulator can not find installed camera."
@@ -237,7 +237,7 @@ namespace GBCSporting_X_TEAM.Migrations
                             IncidentId = 2,
                             CustomerId = 2,
                             DateClosed = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2022, 2, 13, 8, 58, 59, 477, DateTimeKind.Local).AddTicks(3683),
+                            DateOpened = new DateTime(2022, 2, 15, 13, 31, 13, 315, DateTimeKind.Local).AddTicks(9763),
                             Description = "Freeze occurs when a customer tries to check out with an empty cart.",
                             ProductId = 4,
                             Title = "Software causes Point of Sale hardware to freeze"
@@ -247,7 +247,7 @@ namespace GBCSporting_X_TEAM.Migrations
                             IncidentId = 3,
                             CustomerId = 2,
                             DateClosed = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2022, 2, 13, 8, 58, 59, 477, DateTimeKind.Local).AddTicks(3690),
+                            DateOpened = new DateTime(2022, 2, 15, 13, 31, 13, 315, DateTimeKind.Local).AddTicks(9766),
                             Description = "Software gui glitches for a moment after tickets are purchased.",
                             ProductId = 4,
                             Title = "Software gui glitches."
@@ -257,7 +257,7 @@ namespace GBCSporting_X_TEAM.Migrations
                             IncidentId = 4,
                             CustomerId = 4,
                             DateClosed = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2022, 2, 13, 8, 58, 59, 477, DateTimeKind.Local).AddTicks(3696),
+                            DateOpened = new DateTime(2022, 2, 15, 13, 31, 13, 315, DateTimeKind.Local).AddTicks(9770),
                             Description = "Seems to only occur if the return date is a tuesday.",
                             ProductId = 5,
                             Title = "Software does not always send out rental return reminders"
@@ -267,7 +267,7 @@ namespace GBCSporting_X_TEAM.Migrations
                             IncidentId = 5,
                             CustomerId = 4,
                             DateClosed = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2022, 2, 13, 8, 58, 59, 477, DateTimeKind.Local).AddTicks(3703),
+                            DateOpened = new DateTime(2022, 2, 15, 13, 31, 13, 315, DateTimeKind.Local).AddTicks(9773),
                             Description = "If an item is scanned as returned some times it does appear in the pool and has to be re-added manually.",
                             ProductId = 5,
                             Title = "Software sometimes does not add returned item to available item pool automatically"
