@@ -145,7 +145,6 @@ C:\Users\Fpanda\Desktop\GBC Program\Winter2022\Comp2139 - .net\Labs\HomeWork\Ass
 C:\Users\Fpanda\Desktop\GBC Program\Winter2022\Comp2139 - .net\Labs\HomeWork\Assignment\GBCSporting_X-TEAM\obj\Debug\net6.0\ref\GBCSporting_X-TEAM.dll
 C:\Users\Fpanda\Desktop\GBC Program\Winter2022\Comp2139 - .net\Labs\HomeWork\Assignment\GBCSporting_X-TEAM\obj\Debug\net6.0\GBCSporting_X-TEAM.pdb
 C:\Users\Fpanda\Desktop\GBC Program\Winter2022\Comp2139 - .net\Labs\HomeWork\Assignment\GBCSporting_X-TEAM\obj\Debug\net6.0\GBCSporting_X-TEAM.genruntimeconfig.cache
-C:\Users\Fpanda\Desktop\GBC Program\Winter2022\Comp2139 - .net\Labs\HomeWork\Assignment\GBCSporting_X-TEAM\obj\Debug\net6.0\GBCSporting_X-TEAM.csproj.AssemblyReference.cache
 C:\Users\mfles\OneDrive\Documents\webAPPLICATIONS\my projects\GBC\GBCSporting_X-TEAM\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\mfles\OneDrive\Documents\webAPPLICATIONS\my projects\GBC\GBCSporting_X-TEAM\bin\Debug\net6.0\appsettings.json
 C:\Users\mfles\OneDrive\Documents\webAPPLICATIONS\my projects\GBC\GBCSporting_X-TEAM\bin\Debug\net6.0\GBCSporting_X-TEAM.staticwebassets.runtime.json
@@ -207,3 +206,4 @@ C:\Users\mfles\OneDrive\Documents\webAPPLICATIONS\my projects\GBC\GBCSporting_X-
 C:\Users\mfles\OneDrive\Documents\webAPPLICATIONS\my projects\GBC\GBCSporting_X-TEAM\obj\Debug\net6.0\ref\GBCSporting_X-TEAM.dll
 C:\Users\mfles\OneDrive\Documents\webAPPLICATIONS\my projects\GBC\GBCSporting_X-TEAM\obj\Debug\net6.0\GBCSporting_X-TEAM.pdb
 C:\Users\mfles\OneDrive\Documents\webAPPLICATIONS\my projects\GBC\GBCSporting_X-TEAM\obj\Debug\net6.0\GBCSporting_X-TEAM.genruntimeconfig.cache
+C:\Users\Fpanda\Desktop\GBC Program\Winter2022\Comp2139 - .net\Labs\HomeWork\Assignment\GBCSporting_X-TEAM\obj\Debug\net6.0\GBCSporting_X-TEAM.csproj.AssemblyReference.cache

@@ -61,8 +61,9 @@ namespace GBCSporting_X_TEAM.Controllers
         }
 
         [HttpGet]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(int id, int cid)
         {
+            ViewBag.Customer = context.Customers.Find(cid);
             var incident = context.Incidents.Find(id);
             return View(incident);
         }
