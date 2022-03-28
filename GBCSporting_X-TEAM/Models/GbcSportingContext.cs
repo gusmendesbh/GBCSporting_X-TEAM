@@ -174,6 +174,7 @@ namespace GBCSporting_X_TEAM.Models
                     IncidentId = 1,
                     CustomerId = 1,
                     ProductId = 2,
+                    TechnicianId = 5,
                     Title = "Simulator can not find installed camera.",
                     Description = "The camera works with other software, only the simulator doesnt seem to recogize it.",
                     DateOpened = DateTime.Now
@@ -183,6 +184,7 @@ namespace GBCSporting_X_TEAM.Models
                     IncidentId = 2,
                     CustomerId = 2,
                     ProductId = 4,
+                    TechnicianId = 2,
                     Title = "Software causes Point of Sale hardware to freeze",
                     Description = "Freeze occurs when a customer tries to check out with an empty cart.",
                     DateOpened = DateTime.Now
@@ -192,6 +194,7 @@ namespace GBCSporting_X_TEAM.Models
                     IncidentId = 3,
                     CustomerId = 2,
                     ProductId = 4,
+                    TechnicianId = 3,
                     Title = "Software gui glitches.",
                     Description = "Software gui glitches for a moment after tickets are purchased.",
                     DateOpened = DateTime.Now
@@ -201,6 +204,7 @@ namespace GBCSporting_X_TEAM.Models
                     IncidentId = 4,
                     CustomerId = 4,
                     ProductId = 5,
+                    TechnicianId = 1,
                     Title = "Software does not always send out rental return reminders",
                     Description = "Seems to only occur if the return date is a tuesday.",
                     DateOpened = DateTime.Now
@@ -210,6 +214,7 @@ namespace GBCSporting_X_TEAM.Models
                     IncidentId = 5,
                     CustomerId = 4,
                     ProductId = 5,
+                    TechnicianId = 1,
                     Title = "Software sometimes does not add returned item to available item pool automatically",
                     Description = "If an item is scanned as returned some times it does appear in the pool and has to be re-added manually.",
                     DateOpened = DateTime.Now

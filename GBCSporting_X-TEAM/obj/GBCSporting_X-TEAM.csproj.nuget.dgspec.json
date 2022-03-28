@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fpanda\\Desktop\\GBC Program\\Winter2022\\Comp2139 - .net\\Labs\\HomeWork\\Assignment\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj": {}
+    "C:\\Users\\Fpanda\\Desktop\\GBC Program\\Winter2022\\Comp2139 - .net\\Assignments\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fpanda\\Desktop\\GBC Program\\Winter2022\\Comp2139 - .net\\Labs\\HomeWork\\Assignment\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj": {
+    "C:\\Users\\Fpanda\\Desktop\\GBC Program\\Winter2022\\Comp2139 - .net\\Assignments\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fpanda\\Desktop\\GBC Program\\Winter2022\\Comp2139 - .net\\Labs\\HomeWork\\Assignment\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj",
+        "projectUniqueName": "C:\\Users\\Fpanda\\Desktop\\GBC Program\\Winter2022\\Comp2139 - .net\\Assignments\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj",
         "projectName": "GBCSporting_X-TEAM",
-        "projectPath": "C:\\Users\\Fpanda\\Desktop\\GBC Program\\Winter2022\\Comp2139 - .net\\Labs\\HomeWork\\Assignment\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj",
+        "projectPath": "C:\\Users\\Fpanda\\Desktop\\GBC Program\\Winter2022\\Comp2139 - .net\\Assignments\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj",
         "packagesPath": "C:\\Users\\Fpanda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fpanda\\Desktop\\GBC Program\\Winter2022\\Comp2139 - .net\\Labs\\HomeWork\\Assignment\\GBCSporting_X-TEAM\\obj\\",
+        "outputPath": "C:\\Users\\Fpanda\\Desktop\\GBC Program\\Winter2022\\Comp2139 - .net\\Assignments\\GBCSporting_X-TEAM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fpanda\\AppData\\Roaming\\NuGet\\NuGet.Config",

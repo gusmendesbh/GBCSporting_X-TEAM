@@ -39,11 +39,6 @@ namespace GBCSporting_X_TEAM.Controllers
 
         public IActionResult Incidents()
         {
-            /*var Lists = from inc in context.Incidents
-                        join cus in context.Customers on inc.CustomerId equals cus.CustomerId
-                        select new { Title = inc.Title, Customer = cus.FirstName };*/
-
-
             var incident = context.Incidents.Include(c => c.Customer).Include(p => p.Product).OrderBy(x => x.Title).ToList();
             return View(incident);
         }
@@ -55,7 +50,8 @@ namespace GBCSporting_X_TEAM.Controllers
 
         public IActionResult UpdateIncident()
         {
-            return View();
+            ViewBag.Technician = context.Technicians.OrderBy(x => x.Name).ToList();
+            return View();           
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

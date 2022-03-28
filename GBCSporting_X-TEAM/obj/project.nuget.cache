@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FwODr31knGTSW1m8sLztxPZ4WxzLNyuAeX0V3iegxovhnZlEYxJoT+A3FO0FDkHrM3JZwuM/PqYj0LvGKXBZ9A==",
+  "dgSpecHash": "KSZ8jbIzwS6XQJwK7l0d/Jw8tOFol63+Elx2w09ElEyoe8jXsrV5xCa94fGYGdhBzEOai9mTkujfx+QQd+MPUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fpanda\\Desktop\\GBC Program\\Winter2022\\Comp2139 - .net\\Labs\\HomeWork\\Assignment\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj",
+  "projectFilePath": "C:\\Users\\Fpanda\\Desktop\\GBC Program\\Winter2022\\Comp2139 - .net\\Assignments\\GBCSporting_X-TEAM\\GBCSporting_X-TEAM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fpanda\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Fpanda\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

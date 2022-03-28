@@ -38,9 +38,6 @@ namespace GBCSporting_X_TEAM.Controllers
         [HttpPost]
         public IActionResult Edit(Incident incident)
         {
-            
-           
-
             if (ModelState.IsValid)
             {
                 if (incident.IncidentId == 0)

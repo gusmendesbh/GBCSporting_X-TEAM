@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace GBCSporting_X_TEAM.Migrations
 {
-    public partial class Initial : Migration
+    public partial class initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -168,11 +168,11 @@ namespace GBCSporting_X_TEAM.Migrations
                 columns: new[] { "IncidentId", "CustomerId", "DateClosed", "DateOpened", "Description", "ProductId", "TechnicianId", "Title" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2022, 2, 15, 13, 31, 13, 315, DateTimeKind.Local).AddTicks(9759), "The camera works with other software, only the simulator doesnt seem to recogize it.", 2, null, "Simulator can not find installed camera." },
-                    { 2, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2022, 2, 15, 13, 31, 13, 315, DateTimeKind.Local).AddTicks(9763), "Freeze occurs when a customer tries to check out with an empty cart.", 4, null, "Software causes Point of Sale hardware to freeze" },
-                    { 3, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2022, 2, 15, 13, 31, 13, 315, DateTimeKind.Local).AddTicks(9766), "Software gui glitches for a moment after tickets are purchased.", 4, null, "Software gui glitches." },
-                    { 4, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2022, 2, 15, 13, 31, 13, 315, DateTimeKind.Local).AddTicks(9770), "Seems to only occur if the return date is a tuesday.", 5, null, "Software does not always send out rental return reminders" },
-                    { 5, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2022, 2, 15, 13, 31, 13, 315, DateTimeKind.Local).AddTicks(9773), "If an item is scanned as returned some times it does appear in the pool and has to be re-added manually.", 5, null, "Software sometimes does not add returned item to available item pool automatically" }
+                    { 1, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2022, 3, 27, 14, 34, 46, 126, DateTimeKind.Local).AddTicks(1929), "The camera works with other software, only the simulator doesnt seem to recogize it.", 2, 5, "Simulator can not find installed camera." },
+                    { 2, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2022, 3, 27, 14, 34, 46, 126, DateTimeKind.Local).AddTicks(1934), "Freeze occurs when a customer tries to check out with an empty cart.", 4, 2, "Software causes Point of Sale hardware to freeze" },
+                    { 3, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2022, 3, 27, 14, 34, 46, 126, DateTimeKind.Local).AddTicks(1939), "Software gui glitches for a moment after tickets are purchased.", 4, 3, "Software gui glitches." },
+                    { 4, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2022, 3, 27, 14, 34, 46, 126, DateTimeKind.Local).AddTicks(1944), "Seems to only occur if the return date is a tuesday.", 5, 1, "Software does not always send out rental return reminders" },
+                    { 5, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2022, 3, 27, 14, 34, 46, 126, DateTimeKind.Local).AddTicks(1949), "If an item is scanned as returned some times it does appear in the pool and has to be re-added manually.", 5, 1, "Software sometimes does not add returned item to available item pool automatically" }
                 });
 
             migrationBuilder.CreateIndex(

@@ -1,8 +1,5 @@
 ﻿@model Incident 
 
-
-
-
 @{
     string title = ViewBag.Action + " Incident";
     ViewBag.Title = title;
@@ -13,11 +10,7 @@
 <form asp-action="Edit" method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
 
-    <div class="form-group">
-        <!--
-        <label asp-for="Customer">Customer</label>
-        <input asp-for="Customer" class="form-control">
-        -->
+    <div class="form-group">        
         <label asp-for="CustomerId">Customer:</label>
         <select asp-for="CustomerId" class="form-control">
             <option value="">Select a Customer</option>
